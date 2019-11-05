@@ -1,0 +1,4 @@
+# field-separator is ",", sum up the 2nd columns where the 1st column contains "iPhone"
+awk -F ',' '$1 ~ "iPhone" {sum += $2} END {print sum} ' data.txt
+
+
