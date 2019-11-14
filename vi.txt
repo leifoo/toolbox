@@ -1,0 +1,6 @@
+https://www.cs.oberlin.edu/~kuperman/help/vim/home.html
+
+# split window left and right
+vsplit file
+# readonly
+sview file 

@@ -1,0 +1,2 @@
+# Create a soft link
+ln -s file1 link1
