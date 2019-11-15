@@ -1,0 +1,4 @@
+# (recursively, ignore-case, line number) find "wemind" in each txt file in subdirectories
+grep -rin "wemind" --include=\*.txt
+
+
