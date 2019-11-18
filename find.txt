@@ -1,5 +1,5 @@
 # find a file
-find /path/to/folder/ -iname *file_name_portion*
+find /path/to/folder/ -iname "*file_name_portion*"
 
 # Copy all txt files from all subdirectories
 find . -name \*.txt -exec cp {} des/ \;
