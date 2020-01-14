@@ -1,0 +1,2 @@
+# search for word and count # of results
+grep -rin -e "search_word" --include \*.json | wc -l
