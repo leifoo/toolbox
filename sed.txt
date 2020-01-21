@@ -1,0 +1,2 @@
+# replace old with new in test.json
+sed -i -e 's/old/new/g' test.json
