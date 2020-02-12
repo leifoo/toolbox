@@ -2,4 +2,4 @@
 sed -i -e 's/old/new/g' test.json
 
 # Recursively find and replace in files
-find . -type f -name "*.txt" -print0 | xargs -0 sed -i '' -e 's/foo/bar/g'
+find . -type f -name "*.txt" -print0 | xargs -0 sed -i'' -e 's/foo/bar/g'
